@@ -1,0 +1,13 @@
+/*3) Crie um programa que contenha um array de float com 10 elementos. Imprima o
+endereço de cada posição desse array.*/
+#include <stdio.h>
+
+int main()
+  {
+  float vetor[10];
+  for(int i = 0; i < 10; i++)
+    {
+    printf("endereco elemento %d: %p \n", i, &vetor[i]);
+    }
+  return 0;
+  }
